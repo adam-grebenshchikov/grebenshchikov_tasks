@@ -11,6 +11,7 @@ body {
 
 .header-and-main-content-wrapper {
     display: flex;
+    justify-content: space-between;
 }
 
 .footer {
@@ -68,8 +69,7 @@ body {
 }
 
 header {
-    width: 140px;
-    margin-right: 45px;
+    flex-basis: 140px;
 }
 
 .main-nav {
@@ -139,7 +139,7 @@ header {
 }
 
 .main-content {
-    flex-basis: 100%
+    flex-basis: 84%
 }
 
 .banner {
