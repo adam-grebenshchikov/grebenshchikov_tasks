@@ -69,13 +69,15 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-basis: 140px;
 }
 
 .main-nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-style: italic;
     font-weight: 400;
     font-size: 14px;
@@ -99,6 +101,32 @@ header {
 
 .main-nav__link {
     padding: 5px 13px 31px 8px;
+}
+
+.main-nav__icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.food-icon {
+    background-image: url(../images/icons/food-icon.svg);
+}
+
+.blog-icon {
+    background-image: url(../images/icons/blog-icon.svg);
+}
+
+.list-icon {
+    background-image: url(../images/icons/a-list-icon.svg);
+}
+
+.camera-icon {
+    background-image: url(../images/icons/camera-icon.svg);
+}
+
+.about-icon {
+    background-image: url(../images/icons/about-icon.svg);
 }
 
 .social-meadia__title {
