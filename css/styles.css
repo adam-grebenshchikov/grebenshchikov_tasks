@@ -129,6 +129,10 @@ header {
     background-image: url(../images/icons/about-icon.svg);
 }
 
+.twitter-icon {
+    background-image: url(../images/icons/primary-twitter-icon.svg);
+}
+
 .social-meadia__title {
     display: block;
     font-family: Verdana;
@@ -162,8 +166,10 @@ header {
     cursor: pointer;
 }
 
-.social-media__button img {
-    margin-right: 6px;
+.social-media__icon {
+    width: 16px;
+    height: 14px;
+    margin-right: 3px;
 }
 
 .main-content {
