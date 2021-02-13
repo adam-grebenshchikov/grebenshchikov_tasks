@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
 }
 
-.header-and-main-content-wrapper {
+.main-wrapper {
     display: flex;
     justify-content: space-between;
 }
