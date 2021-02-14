@@ -59,13 +59,23 @@ body {
     font-weight: 400;
 }
 
-.footer__social-media_button {
+.social-media-links {
+    display: flex;
+}
+
+.social-media-links__link {
     text-decoration: none;
     margin: 0 6px;
 }
 
-.footer__social-media-buttons .footer__social-media_button:last-child {
+.social-media-links .social-media-links__link:last-child {
     margin-right: 0;
+}
+
+.social-media-links__icon {
+    display: block;
+    width: 32px;
+    height: 32px;
 }
 
 header {
@@ -110,27 +120,39 @@ header {
 }
 
 .food-icon {
-    background-image: url(../images/icons/food-icon.svg);
+    background: center url(../images/icons/food-icon.svg) no-repeat;
 }
 
 .blog-icon {
-    background-image: url(../images/icons/blog-icon.svg);
+    background: center url(../images/icons/blog-icon.svg) no-repeat;
 }
 
 .list-icon {
-    background-image: url(../images/icons/a-list-icon.svg);
+    background: center url(../images/icons/a-list-icon.svg) no-repeat;
 }
 
 .camera-icon {
-    background-image: url(../images/icons/camera-icon.svg);
+    background: center url(../images/icons/camera-icon.svg) no-repeat;
 }
 
 .about-icon {
-    background-image: url(../images/icons/about-icon.svg);
+    background: center url(../images/icons/about-icon.svg) no-repeat;
+}
+
+.twitter-primary-icon {
+    background: center url(../images/icons/primary-twitter-icon.svg) no-repeat;
 }
 
 .twitter-icon {
-    background-image: url(../images/icons/primary-twitter-icon.svg);
+    background: center url(../images/icons/twitter-icon.svg) no-repeat;
+}
+
+.facebook-icon {
+    background: center url(../images/icons/facebook-icon.svg) no-repeat;
+}
+
+.rss-icon {
+    background: center url(../images/icons/rss-icon.svg) no-repeat;
 }
 
 .social-meadia__title {
