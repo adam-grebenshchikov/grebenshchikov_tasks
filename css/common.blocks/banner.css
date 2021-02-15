@@ -1,0 +1,37 @@
+.banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__title {
+    background: #FFFFFF;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 49px;
+    padding: 0 15px;
+}
+
+.banner__slogan {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    bottom: 69px;
+}
+
+.baner__img {
+    width: 100%;
+    height: auto;
+}
+
+.banner__description {
+    background: #000000;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding: 0 15px;
+}

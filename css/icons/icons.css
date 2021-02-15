@@ -1,0 +1,39 @@
+.food-icon {
+    background: center url(../../images/icons/food-icon.svg) no-repeat;
+}
+
+.blog-icon {
+    background: center url(../../images/icons/blog-icon.svg) no-repeat;
+}
+
+.list-icon {
+    background: center url(../../images/icons/a-list-icon.svg) no-repeat;
+}
+
+.camera-icon {
+    background: center url(../../images/icons/camera-icon.svg) no-repeat;
+}
+
+.about-icon {
+    background: center url(../../images/icons/about-icon.svg) no-repeat;
+}
+
+.twitter-primary-icon {
+    background: center url(../../images/icons/primary-twitter-icon.svg) no-repeat;
+}
+
+.twitter-icon {
+    background: center url(../../images/icons/twitter-icon.svg) no-repeat;
+}
+
+.facebook-icon {
+    background: center url(../../images/icons/facebook-icon.svg) no-repeat;
+}
+
+.rss-icon {
+    background: center url(../../images/icons/rss-icon.svg) no-repeat;
+}
+
+.mail-icon {
+    background: center url(../../images/icons/mail-icon.svg) no-repeat;
+}

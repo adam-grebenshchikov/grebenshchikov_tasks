@@ -1,0 +1,33 @@
+.banner-switching-panel {
+    display: flex;
+}
+
+.banner-switching-panel__link {
+    display: flex;
+    flex-direction: column;
+    background: #EFF8F7;
+    border: none;
+    padding: 26px 20px 22px;
+    cursor: pointer;
+    flex-grow: 1;
+    text-decoration: none;
+}
+
+.banner-switching-panel__link:hover {
+    background: #D9EFEC;
+}
+
+.banner-switching-panel__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.banner-switching-panel__description {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 19px;
+    margin-bottom: 0;
+}

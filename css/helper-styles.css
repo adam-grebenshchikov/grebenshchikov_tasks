@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+}
+
+.smokie-c {
+    color: #E5E5E5;
+}
+
+.smokie-b-c {
+    border-color: #E5E5E5;
+}
+
+.primary-c {
+    color: #34ACA7;
+}
+
+.dark-c {
+    color: #000000;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}

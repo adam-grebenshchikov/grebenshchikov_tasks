@@ -1,0 +1,18 @@
+.social-media-links {
+    display: flex;
+}
+
+.social-media-links__icon {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.social-media-links__link {
+    text-decoration: none;
+    margin: 0 6px;
+}
+
+.social-media-links .social-media-links__link:last-child {
+    margin-right: 0;
+}

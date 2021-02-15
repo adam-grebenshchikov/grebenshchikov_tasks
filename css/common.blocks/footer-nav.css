@@ -1,0 +1,27 @@
+.footer-nav {
+    margin-bottom: 5px;
+}
+
+.footer-nav__links .footer-nav__link:last-child {
+    border: none;
+}
+
+.footer-nav__links .footer-nav__link:first-child {
+    padding-left: 0;
+}
+
+.footer-nav__link {
+    padding: 0 3px;
+    border-right: solid 2px;
+}
+
+.footer-nav__link a {
+    text-decoration: none;
+}
+
+.footer-nav__links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
