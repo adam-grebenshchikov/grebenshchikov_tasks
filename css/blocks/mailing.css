@@ -25,7 +25,7 @@
 
 .mailing__information {
     display: flex;
-    flex-basis: 60%;
+    flex-basis: 70%;
 }
 
 .mailing__input {
@@ -41,8 +41,9 @@
 }
 
 .mailing__icon {
-    width: 55px;
-    height: 32px;
+    width: 32px;
+    height: auto;
+    flex-shrink: 0;
 }
 
 .mailing__input::placeholder {
@@ -58,4 +59,26 @@
     line-height: 10px;
     margin-left: 18px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .mailing {
+        flex-wrap: wrap;
+    }
+
+    .mailing__information {
+        flex-basis: 100%;
+    }
+
+    .mailing__form {
+        flex-grow: 1;
+    }
+
+    .mailing__input {
+        flex-grow: 1;
+    }
+
+    .mailing__description {
+        margin: 10px 0 10px 10px;
+    }
 }

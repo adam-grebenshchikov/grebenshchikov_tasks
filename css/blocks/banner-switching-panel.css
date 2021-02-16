@@ -31,3 +31,24 @@
     line-height: 19px;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 1175px) {
+    .banner-switching-panel__description {
+        display: none;
+    }
+
+    .banner-switching-panel__link {
+        padding: 10px 0;
+    }
+
+    .banner-switching-panel__title {
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+   .banner-switching-panel {
+       display: none;
+   }
+}

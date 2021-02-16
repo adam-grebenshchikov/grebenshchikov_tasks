@@ -36,3 +36,9 @@
     height: 14px;
     margin-right: 3px;
 }
+
+@media screen and (max-width: 991px) {
+    .social-media-container {
+        display: none;
+    }
+}

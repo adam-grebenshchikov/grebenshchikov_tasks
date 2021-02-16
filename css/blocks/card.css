@@ -46,3 +46,21 @@
 .card__date::after {
     content: " /";
 }
+
+@media screen and (max-width: 767px) {
+    .card-container {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex-basis: 48%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .card {
+        flex-basis: 95%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+}

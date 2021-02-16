@@ -9,8 +9,8 @@
     font-style: italic;
     font-weight: 400;
     font-size: 22px;
-    line-height: 49px;
-    padding: 0 15px;
+    line-height: 28px;
+    padding: 8px 15px;
 }
 
 .banner__slogan {
@@ -31,7 +31,31 @@
     font-style: italic;
     font-weight: normal;
     font-size: 14px;
-    line-height: 42px;
+    line-height: 20px;
     color: #FFFFFF;
-    padding: 0 15px;
+    padding: 8px 15px;
 }
+
+@media screen and (max-width: 767px) {
+    .banner__slogan {
+        bottom: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .banner__title {
+        display: block;
+        opacity: 0.6
+    }
+    
+    .banner__description {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    .banner {
+        margin: 0 -15px;
+    }
+ }

@@ -1,0 +1,10 @@
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 991px) { 
+    .main-wrapper {
+        flex-direction: column;
+    }
+}
